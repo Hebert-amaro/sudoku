@@ -47,24 +47,6 @@ Para rodar este jogo de Sudoku no seu ambiente local, siga os passos abaixo:
     * Execute a classe `Main.java` na sua IDE.
     * Um menu interativo será exibido no terminal. Siga as instruções para jogar!
 
-## 📂 Estrutura do Projeto
-.
-├── src/
-│   └── br/
-│       └── com/
-│           └── dio/
-│               ├── Main.java         # Ponto de entrada e menu de interação do jogo.
-│               ├── model/
-│               │   ├── Board.java    # Representa o tabuleiro do Sudoku e a lógica das regras.
-│               │   ├── GameStatusEnum.java # Enum para os estados do jogo.
-│               │   └── Space.java    # Representa uma célula individual do tabuleiro.
-│               └── util/
-│                   └── BoardTemplate.java # Contém o template de String para exibir o tabuleiro.
-├── .settings/                  # Arquivos de configuração da IDE (ex: Eclipse).
-├── bin/                        # Diretório para os arquivos compilados (.class).
-├── .classpath                  # Caminhos de classes do projeto (Eclipse).
-├── .project                    # Metadados do projeto (Eclipse).
-└── README.md                   # Este arquivo!
 
 🛠️ Tecnologias Utilizadas
 Java 8+ (utilizando recursos como Expressões Lambda, Stream API, Text Blocks)
